@@ -1,8 +1,37 @@
-div{
+#CS50{
     background-color: skyblue;
     width: 800px;
     height: 150px;
     padding: 100px;
     margin: 100px;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div {
+    background-color: aqua;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#grid{
+    display: grid;
+    padding: 20px;
+    background-color: antiquewhite;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.griditem{
+    padding: 20px;
+    background-color: yellow;
     text-align: center;
 }
