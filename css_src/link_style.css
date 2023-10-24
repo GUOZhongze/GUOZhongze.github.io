@@ -1,0 +1,15 @@
+a{
+    color: blue;
+}
+
+a[href="https://google.com"]{
+    color: orange;
+}
+
+a[href="https://hkust.edu.hk/"]{
+    color: skyblue;
+}
+
+a[href="https://www.cqu.edu.cn/"]{
+    color: red;
+}

@@ -1,0 +1,14 @@
+table {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#test_id1 > #test_id2{
+    color:rgb(168, 226, 8); 
+}
