@@ -6,3 +6,12 @@
 	width: auto;
 	height: auto;
 }
+
+#welcome{
+    color:rgb(0, 0, 255); 
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;    
+	width: auto;
+	height: auto;
+}
